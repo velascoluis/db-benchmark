@@ -1,4 +1,4 @@
-WITH ans AS () 
+WITH ans AS ( 
     SELECT id1, id2, sum(v1) as v1
     FROM x 
     GROUP id1, id2
